@@ -1,26 +1,10 @@
 fastapi
 uvicorn[standard]
-
-# For environment variables
 python-dotenv
-
-# For data validation & settings
 pydantic
 pydantic-settings
-
-# If you use Supabase
 supabase
-
-# If you use OpenAI or Agents SDK
-openai
-agents
-openai-agents
-
-# For file uploads / form data
-python-multipart
-
-# Optional extras used by FastAPI
 httpx
-sse-starlette==2.0.0
-
-
+python-multipart
+openai
+sse-starlette
