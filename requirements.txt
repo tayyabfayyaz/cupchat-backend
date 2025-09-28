@@ -22,3 +22,5 @@ python-multipart
 # Optional extras used by FastAPI
 httpx
 sse-starlette==2.0.0
+
+tensorflow
